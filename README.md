@@ -1,1 +1,3 @@
-# dotfiles
+# Programming Environment Settings
+
+## Vim
