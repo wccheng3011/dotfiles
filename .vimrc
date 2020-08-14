@@ -101,3 +101,7 @@ nmap <Leader>t :TagbarToggle<CR>
 " ycm disable preview windows
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
+
+" ycm for c/c++ "
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf = 0
