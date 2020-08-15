@@ -123,3 +123,6 @@ function! Toggle_transparent_background()
   endif                                                                                         
 endfunction                                                                                     
 nnoremap <C-t> :call Toggle_transparent_background()<CR>  
+
+" markdown
+let g:vim_markdown_folding_disabled = 1
