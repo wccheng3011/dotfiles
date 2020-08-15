@@ -2,8 +2,6 @@
 
 
 ## Vim
-
-
 * Personal customization for linux system
 * For plugin, we use [vim-plug](https://github.com/junegunn/vim-plug)
     * `sudo apt install curl`
@@ -22,3 +20,4 @@
 
 ## Tmux
 * Follow [Oh My Tmux](https://github.com/gpakosz/.tmux) Settings
+* For Changing the personal setup, just modify settings in `.tmux.conf.local`.
