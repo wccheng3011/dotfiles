@@ -17,6 +17,9 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 
+" Enable mouse "
+set mouse=a
+
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
@@ -58,7 +61,8 @@ Plug 'mbbill/undotree'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 
-
+" html css develop "
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
@@ -105,3 +109,17 @@ let g:ycm_add_preview_to_completeopt = 0
 " ycm for c/c++ "
 let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf = 0
+
+
+" Set vim transparent
+let t:is_transparent = 0                                                                        
+function! Toggle_transparent_background()                                                       
+  if t:is_transparent == 0                                                                      
+    hi Normal guibg=#111111 ctermbg=black                                                       
+    let t:is_transparent = 1                                                                    
+  else                                                                                          
+    hi Normal guibg=NONE ctermbg=NONE                                                           
+    let t:is_transparent = 0                                                                    
+  endif                                                                                         
+endfunction                                                                                     
+nnoremap <C-t> :call Toggle_transparent_background()<CR>  
