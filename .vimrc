@@ -17,6 +17,13 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 
+" Show some info
+set showcmd
+set showmode
+set visualbell
+set history=1000
+set autoread
+
 " Enable mouse "
 set mouse=a
 
