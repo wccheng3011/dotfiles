@@ -133,3 +133,8 @@ nnoremap <C-t> :call Toggle_transparent_background()<CR>
 
 " markdown
 let g:vim_markdown_folding_disabled = 1
+
+" ipbd (prefered to insert with map)
+map <Leader>m oimport ipbd;ipbd.set_trace()<esc>
+" this is insert predefined text by abbreviation
+"ab ip import ipdb;ipdb.set_trace()
