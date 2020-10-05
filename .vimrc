@@ -138,3 +138,9 @@ let g:vim_markdown_folding_disabled = 1
 map <Leader>m oimport ipbd;ipbd.set_trace()<esc>
 " this is insert predefined text by abbreviation
 "ab ip import ipdb;ipdb.set_trace()
+
+" For HTML/CSS autocomplete
+let g:ycm_semantic_triggers = {
+   \   'scss,sass,css': [ 're!^\s{4}', 're!:\s+' ],
+   \   'html': ['<', '"', '</', ' '],
+   \ }

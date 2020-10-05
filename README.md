@@ -16,6 +16,8 @@
         * modifed `~/.vimrc` with `let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'`,`let g:ycm_confirm_extra_conf = 0`
 * For Vim, we have YCM, NerdTree, TagBar, PyMode Checking, Lightline.
 * For transparency adjustment, use `<C-t>`.
+* For html/css [Omnicomplete](http://lausai360.blogspot.com/2017/04/youcompleteme-vim-omnicomplete.html)
+* Others
 
 
 ## Tmux
